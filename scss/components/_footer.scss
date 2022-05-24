@@ -3,9 +3,9 @@
 //*****************************************************
 
 .link-style {
-    a {
+    a{
         padding: 0.4rem;
-        @include transition(1sn);
+        @include transition(1s);
 
         &:hover{
             color: $secondary-color;
@@ -13,7 +13,7 @@
     }
 }
 
-footer.horizontal {
+footer.horizontal{
     // border: 2px solid red;
     height: 10vh;
     display: flex;

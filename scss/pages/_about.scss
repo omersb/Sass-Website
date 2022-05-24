@@ -1,0 +1,10 @@
+//*****************************************************
+//*   ABOUT PAGE
+//*****************************************************
+
+.about-bgImg-container{
+    @include bgImage(50vh, "../img/model-1.jpg");
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
