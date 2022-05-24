@@ -13,6 +13,8 @@
     }
 }
 
+
+
 footer.horizontal{
     // border: 2px solid red;
     height: 10vh;
@@ -23,6 +25,7 @@ footer.horizontal{
     @extend .link-style;
 }
 
+
 footer.vertical{
     // border: 2px solid red;
     display: flex;
@@ -30,7 +33,6 @@ footer.vertical{
     align-items: flex-end;
     padding: 2rem;
     margin-bottom: 1rem;
-    
     .social-icons{
         display: flex;
         flex-direction: column;
@@ -38,11 +40,24 @@ footer.vertical{
         bottom: 1rem;
         @extend .link-style;
     }
-
-    .copyright {
+    .copyright{
         position: fixed;
         bottom: 1rem;
         right: 3rem;
         transform: rotate(90deg) translate(-3rem, -5rem);
     }
+
+}
+
+
+footer.middle {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    // border: 2px solid red;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+    @extend .link-style;
 }
